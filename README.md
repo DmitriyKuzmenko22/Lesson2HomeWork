@@ -27,3 +27,11 @@ public class javaLevellUP {
         int New_First_smena=Second_smena*10;//60
         int itog=New_First_smena+First_smena;
         System.out.println("Число, образованное при перестановке цифр заданного числа 16 = "+ itog);
+        
+        boolean a = true;
+        boolean b = false;
+        boolean c = false;
+        boolean d = (!a & b);
+        System.out.println("Условие:не А и В = "+(!a & b));
+        System.out.println("Условие:А или не В = "+ (a|!b));
+        System.out.println("Условие:А и В или С = "+ (a&b|c));
