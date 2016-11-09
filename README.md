@@ -35,3 +35,14 @@ public class javaLevellUP {
         System.out.println("Условие:не А и В = "+(!a & b));
         System.out.println("Условие:А или не В = "+ (a|!b));
         System.out.println("Условие:А и В или С = "+ (a&b|c));
+        
+        //6
+        boolean x = false;
+        boolean y = false;
+        boolean z = true;
+        System.out.println("Условие:X или Y и не Z = "+(x | y &!z));
+        System.out.println("Условие:не X и не Y = "+ (!x&!y));
+        System.out.println("Условие:не (X и Z) или Y = "+ (!(x&z)|y));
+        System.out.println("Условие:X и не Y или Z = "+ (x&!y|z));
+        System.out.println("Условие:X и (не Y или Z) = "+ (x&(!y|z)));
+        System.out.println("Условие:X или (не (Y или Z)) = "+ (x|(!(y|z))));
